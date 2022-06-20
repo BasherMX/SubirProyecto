@@ -39,6 +39,7 @@ import { UserPipe } from './root-users/user.pipe';
 import { DoctorPipe } from './root-docs/doctor.pipe';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { HttpClientModule } from '@angular/common/http';
+import { ResultadosNodeComponent } from './resultados-node/resultados-node.component';
 
 @NgModule({
   declarations: [
@@ -65,7 +66,8 @@ import { HttpClientModule } from '@angular/common/http';
     RootUsersComponent,
     UserPipe,
     DoctorPipe,
-    GraficasComponent
+    GraficasComponent,
+    ResultadosNodeComponent
   ],
   imports: [
     BrowserModule,

@@ -19,6 +19,7 @@ import { DesarrolladoresComponent } from './desarrolladores/desarrolladores.comp
 import { RootDocsComponent } from './root-docs/root-docs.component';
 import { RootUsersComponent } from './root-users/root-users.component';
 import { GraficasComponent } from './graficas/graficas.component';
+import {ResultadosNodeComponent } from './resultados-node/resultados-node.component'
 
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: '/home' },
@@ -49,7 +50,8 @@ const routes: Routes = [
   { path: 'desarrolladores', component: DesarrolladoresComponent},
   { path: 'rootDocs', component: RootDocsComponent},
   { path: 'rootUsers', component: RootUsersComponent},
-  { path: 'graficas', component: GraficasComponent}
+  { path: 'graficas', component: GraficasComponent},
+  { path: 'resultss/:id/:nombre/:precio/:fecha/:name/:lastname', component: ResultadosNodeComponent}
 
 
 ];
