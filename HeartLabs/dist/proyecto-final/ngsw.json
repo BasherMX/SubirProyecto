@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1655683240213,
+  "timestamp": 1655684515135,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main.3fb512e2ce7d7d95.js",
+        "/main.3677352cadf5803b.js",
         "/manifest.webmanifest",
         "/polyfills.b896017457f324fb.js",
         "/runtime.e0613529857de45a.js",
@@ -189,10 +189,10 @@
     "/assets/redesSociales/whatsapp.svg": "b3cb0e7caa78d36e9272aebd875c85a9974d75ac",
     "/assets/redesSociales/youtube.svg": "718925f3cb8e413a5bac2a517cbed6bd10d45649",
     "/favicon.ico": "4a17f4fabd8860f14e2eff7882a31a78a20cbd74",
-    "/index.html": "3f898b9170d98a7c3ce3066b94890b013a1d2957",
+    "/index.html": "2319fa167c8ad6415147780954393735107c6ccd",
     "/logout_rd.bd7f79b4a3cad6af.svg": "80ac7bc27d96b6a9bc8e44e25c83e607d27b015b",
     "/logout_wh.2275b7b0a25acbde.svg": "ebcceafdc79649e943f0791eb3699c6bf38c911a",
-    "/main.3fb512e2ce7d7d95.js": "02801553a0a003f61bfefa32e4154f29e13c2c89",
+    "/main.3677352cadf5803b.js": "aaa842cfbed2d003dee9114b61812e7022673308",
     "/manifest.webmanifest": "485c5764141d281cff49d2a089ff812206a6bcf0",
     "/polyfills.b896017457f324fb.js": "61e5ecb9a5352f1aa671320975ed49d0a8db9ff3",
     "/runtime.e0613529857de45a.js": "ac0ddf7fb1271d3864cf0764c16297dc2c502217",

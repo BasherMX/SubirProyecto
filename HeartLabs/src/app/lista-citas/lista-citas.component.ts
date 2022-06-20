@@ -167,11 +167,11 @@ export class ListaCitasComponent implements OnInit {
   }
 
   agregar_URL(nombre: any, id: any, precio: any, fecha: any) {
-    this.url ='https://heartlabs.herokuapp.com/'+id+'/'+nombre+'/'+precio+'/'+fecha+'/'+this.usuarioActual.name+'/'+this.usuarioActual.lastName;
+    this.url ='https://heartlabs.herokuapp.com/resultss/'+id+'/'+nombre+'/'+precio+'/'+fecha+'/'+this.usuarioActual.name+'/'+this.usuarioActual.lastName;
     this.value = this.url;
   }
 
   abriracceso(nombre: any, id: any, precio: any, fecha: any) {
-    window.open('https://heartlabs.herokuapp.com/'+id+'/'+nombre+'/'+precio+'/'+fecha+'/'+this.usuarioActual.name+'/'+this.usuarioActual.lastName,'_blank');
+    window.open('https://heartlabs.herokuapp.com/resultss/'+id+'/'+nombre+'/'+precio+'/'+fecha+'/'+this.usuarioActual.name+'/'+this.usuarioActual.lastName,'_blank');
   }
 }

@@ -38,7 +38,7 @@ router.post('/send-email',(req,res)=>{
     res.send('recived');
 });
 
-router.get('/:id/:nombre/:precio/:fecha/:name/:lastname',(req,res)=>{
+router.get('/resultss/:id/:nombre/:precio/:fecha/:name/:lastname',(req,res)=>{
     const data ={
         id:req.params.id, 
         nombre:req.params.nombre, 
